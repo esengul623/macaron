@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.header__right ul {
+  display: flex;
+  gap: 32px;
+}
+.header__right button {
+  background: #04b90b;
+  color: white;
+  width: 137px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+}
+header {
+  padding-top: 34px;
+}
+.header__right li:first-child {
+  color: #04b90b;
+}
+.header__right li {
+  color: #777e90;
+}
+
+.hero__content {
+  display: flex;
+}
+.hero__left h1 {
+  font-size: 72px;
+  font-family: "Alice", sans-serif;
+  font-weight: 400;
+}
+.hero__desc{
+    font-size: 24px;
+    color: #777e90;
+    font-family: "Poppins", sans-serif;
+    margin: 12px 0 36px;
+}
+.hero__explore{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #04b90b;
+}
+.hero__explore button{
+    background: #04b90b;
+    color: white;
+    width: 137px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+}
+
+main{
+    padding-top: 150px;
+}
+
+.hero__left__bottom{
+    background: #f4f5f6;
+    width: 576px;
+    padding: 28px 56px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 158px;
+}
+.hero__left__bottom h3{
+    color: #777e90;
+    font-size: 32px;
+}
+.hero__left__bottom p{
+    color: #777e90;
+    font-size: 20px;
+}
+.hero__line{
+    width: 1px;
+    height: 68px;
+    background: #e6e8ec;
+}
+.offers{
+
+  padding-top: 120px;
+  padding-bottom: 80px;
+  background: #fcfcfd;
+}
+.offers h2{
+  text-align: center;
+  font-size: 48px;
+  font-family: "Alice", sans-serif;
+  margin-bottom: 12px;
+  
+}
+.special{
+  color: #04b90b;
+}
+.offers__description{
+  text-align: center;
+  color: #777e90;
+  font-size: 24px;
+}
+.offers__card h3{
+width: 235px;
+color:#23262f;
+font-weight: 400;
+}
+.offers__reting{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.spicy{
+  font-weight: 400;
+  font-family: "Poppins", sans-serif ;
+  padding: 5px;
+  color:  #353945;
+}
+
+.offers__price h3{
+  color: #04b90b;
+
+}
+.offers__price button{
+  background-color: #04b90b;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  width: 117px;
+  height: 36px;
+
+}
+.offers__price{
+  display: flex;
+}
+.offers__cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+:root {
+  --primary-color: #04b90b;
+  --neutral-8: #fcfcfd;
+  --neutral-7: #f4f5f6;
+  --neutral-6: #e6e8ec;
+  --neutral-5: #b1b5c3;
+  --neutral-4: #777e90;
+  --neutral-3: #353945;
+  --neutral-2: #23262f;
+  --neutral-1: #141416;
+  --color-tag-text-1: #04b90b;
+  --color-tag-text-2: #ea8484;
+  --color-tag-text-3: #106aab;
+  --color-tag-text-4: #f25178;
+  --color-tag-text-5: #8d31e9;
+  --color-tag-text-6: #da9f0a;
+  --color-tag-text-7: #26aca0;
+  --color-tag-text-8: #3304b9;
+  --color-tag-back-ground-1: #d3f9d5;
+  --color-tag-back-ground-2: #fcf1f1;
+  --color-tag-back-ground-3: #f1f7fc;
+  --color-tag-back-ground-4: #fce5e9;
+  --color-tag-back-ground-5: #f6eefd;
+  --color-tag-back-ground-6: #fcf6d8;
+  --color-tag-back-ground-7: #edfcfb;
+  --color-tag-back-ground-8: #f2effd;
+
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Alice", sans-serif;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+#meals .container {
+  padding: 60px 0;
+}
+
+.section__title {
+  font-family: var(--primary-color);
+  font-weight: 400;
+  font-size: 48px;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--neutral-2);
+
+  margin-bottom: 107px;
+}
+
+.section__title span {
+  color: var(--color-tag-text-1);
+}
+
+.proccesses__card {
+  width: 313px;
+
+  text-align: center;
+}
+
+.proccessescardtitle {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: -0.01em;
+  color: var(--neutral-2);
+
+  margin-top: 24px;
+}
+
+.proccessescarddesc {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: var(--neutral-3);
+
+  margin-top: 8px;
+}
+
+#meals .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 310px;
+}
+
+#meals .swiper-slide.swiper-slide-active {
+  box-shadow: 0 10px 27px 0 rgba(53, 53, 53, 0.05) !important;
+  background: #fff !important;
+}
+.chef{
+  padding: 20px; ;
+}
+.chef h4{
+  text-align: center;
+  font-weight: 400;
+  font-family: "Alice", sans-serif ;
+  font-size: 48px;
+}
+.michelin{
+  color: #04b90b;
+}
+.chef__content{
+  display: flex;
+  justify-content: space-between;
+}
+.chef__alain{
+  display: flex;
+  justify-content: space-between;
+
+}
+.chef__alains{
+  color: var(--primary-color);
+}
+.chef__text{
+  width: 614px;
+  height: 336px;
+}
+
+.chef__text p{
+  font-size:18 ;
+  font-weight: 400;
+  font-family: var(--font-family);
+  color: var( --neutral-3);
+}
+
+
+
+.foodz__end{
+padding: 60px;
+
+}
+.container{
+  width: 1024px;
+}
+.footers{
+  display: flex;
+  justify-content: space-around;
+}
+.footer__left{
+  width: 336px; 
+  text-align: center;
+  
+
+}
+.footer__rigth{
+display: flex;
+justify-content: space-between;
+gap: 100px;
+}
+.footer__left p{
+  font-size: 14px;
+  font-family:var(--font-family) ;
+  font-weight: 400;
+  color: var( --neutral-4);
+  
+}
+.Support{
+font-size: 16px;
+font-family: var(--font-family);
+font-weight: 400;
+color: var(--neutral-4);
+}
+.activ{
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.Community{
+font-size: 16px;
+font-family: var(--font-family);
+font-weight: 400;
+color: var(--neutral-4);
+}
+.About{
+font-size: 16px;
+font-family: var(--font-family);
+font-weight: 400;
+color: var(--neutral-4);
+}
