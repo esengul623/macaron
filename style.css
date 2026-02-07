@@ -122,21 +122,19 @@ width: 235px;
 color:#23262f;
 font-weight: 400;
 }
+.offers__cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__price{
+  display: flex;
+
+}
 .offers__reting{
   display: flex;
   align-items: center;
   gap: 12px;
-}
-.spicy{
-  font-weight: 400;
-  font-family: "Poppins", sans-serif ;
-  padding: 5px;
-  color:  #353945;
-}
-
-.offers__price h3{
-  color: #04b90b;
-
 }
 .offers__price button{
   background-color: #04b90b;
@@ -147,14 +145,6 @@ font-weight: 400;
   height: 36px;
 
 }
-.offers__price{
-  display: flex;
-}
-.offers__cards{
-  display: flex;
-  justify-content: space-between;
-}
-
 :root {
   --primary-color: #04b90b;
   --neutral-8: #fcfcfd;
@@ -299,6 +289,7 @@ padding: 60px;
 .footer__left{
   width: 336px; 
   text-align: center;
+  gap: 12px;
   
 
 }
@@ -319,6 +310,7 @@ font-size: 16px;
 font-family: var(--font-family);
 font-weight: 400;
 color: var(--neutral-4);
+gap: 50px;
 }
 .activ{
   font-size: 16px;
@@ -330,8 +322,11 @@ font-size: 16px;
 font-family: var(--font-family);
 font-weight: 400;
 color: var(--neutral-4);
+gap: 50px;
 }
 .About{
+  width: 71px;
+  gap: 50px;
 font-size: 16px;
 font-family: var(--font-family);
 font-weight: 400;
