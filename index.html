@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foodz</title>
-    <link rel="icon" href="/images/Logo.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="header__nav">
-          <img src="images/Logo.svg" alt="" />
 
-          <div class="header__right">
-            <ul>
-              <li>Home</li>
-              <li>Menu</li>
-              <li>Blog</li>
-              <li>Contact</li>
-            </ul>
-            <button>ORDER NOW</button>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foodz</title>
+  <link rel="icon" href="/images/Logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header__nav">
+        <img src="images/Logo.svg" alt="" />
+
+        <div class="header__right">
+          <ul>
+            <li>Home</li>
+            <li>Menu</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+          <button onclick="clickPopup()">ORDER NOW</button>
+          <h2 onclick="clickBurger()">X</h2>
         </div>
+        <div onclick="clickBurger()" class="header__burger"></div>
       </div>
-    </header>
-    <main>
+    </div>
+    <form class="form">
+      <h2>Введите свои данные</h2>
+      <label>
+        <p>Имя</p>
+        <input class="name" type="text" placehopder="Введите имя ">
+      </label>
+      <label>
+        <p>Телефон</p>
+        <input class="number" type="number" placehopder="Введите телефон ">
+      </label>
+      <label>
+        <p>Почта</p>
+        <input class="email" type="email" placehopder="Введите почту ">
+      </label>
+      <button>Отправить</button>
+      <h3 onclick="clickPopup()">x</h3>
+<h4> Заявка успешно</h4>
+    </form>
+
+  </header>
+  <!-- <main>
       <section class="hero">
         <div class="container">
           <div class="hero__content">
@@ -62,6 +81,9 @@
             </div>
             <div class="hero__right">
               <img src="images/Bibimbap.png" alt="" />
+              <img class="hero__sugar" src="images/Sugar.png" alt="">
+              <img class="hero__chopstick" src="images/Chopstick & ....png" alt="">
+             <img class="hero__circle" src="images/bG.png" alt="">
             </div>
           </div>
         </div>
@@ -271,17 +293,21 @@ Considered by many to be one of the best chefs in the world, he’s built a busi
 </div >
       </div>
       </div>
-    </footer>
-      <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    </footer> -->
 
-    <script>
-      var swiper = new Swiper(" .mySwiper2",
-       {
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(" .mySwiper2",
+      {
         slidesPerView: 3,
         spaceBetween: 86,
         centeredSlides: true,
         loop: true,
       });
-    </script>
-  </body>
+  </script>
+  <script src="main.js"></script>
+</body>
+
 </html>
